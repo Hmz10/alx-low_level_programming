@@ -13,16 +13,16 @@ int n;
 for (n = 97; n <= 122; n++)
 {
 x = n;
-printf("%c", x);
-}
-for (n = 65; n <= 90; n++)
+if (n == 113 || n == 101)
 {
-x = n;
+continue;
+}
 printf("%c", x);
-if (n == 90)
+if (n == 122)
 {
 printf("\n");
 }
+
 }
 return (0);
 }
