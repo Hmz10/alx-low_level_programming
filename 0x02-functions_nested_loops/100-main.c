@@ -1,20 +1,17 @@
 #include "main.h"
-
 /**
- * main - Prints Holberton as a message.
+ * main - check the code.
  *
- * Return: Always 0 (Success)
+ * Return: Always 0.
  */
 int main(void)
 {
-int str[] = {72, 111, 108, 98, 101, 114, 116, 111, 110};
-int count, sz;
-
-sz = sizeof(str) / sizeof(int);
-for (count = 0; count < sz; count++)
-{
-_putchar(str[count]);
-}
+print_times_table(3);
 _putchar('\n');
+print_times_table(5);
+_putchar('\n');
+print_times_table(98);
+_putchar('\n');
+print_times_table(12);  
 return (0);
 }
